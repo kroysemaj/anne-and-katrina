@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "OPTIBerling-Agency";
+  src: url("./fonts/OPTIBerling-Agency/OPTIBerling-Agency.ttf.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Madina";
+  src: url("./fonts/Madina/Madina.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "OPTIBerling-Agency", sans-serif;
+  font-size: 1.2rem;
+  color: #f4f4f4;
+  background-color: #030d3c;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #030d3c;
+}
+
+.nav-list li {
+  margin-right: 1rem;
+
+  list-style: none;
+}
+
+.nav-list a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.nav-list a:hover {
+  text-decoration: underline;
+  color: #a87e4b;
+}
