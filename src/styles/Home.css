@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  height: 100vh;
+  justify-content: space-between;
+  height: 85vh;
 }
 
 .call-to-action {
@@ -16,8 +16,9 @@
 
 .save-the {
   font-size: 5rem;
+  text-align: left;
   line-height: 1.1;
-  margin: 0 auto 1rem 2rem;
+  margin: 0 0 1rem 5rem;
   margin-bottom: 1rem;
 }
 

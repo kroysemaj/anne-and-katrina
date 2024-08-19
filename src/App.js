@@ -5,6 +5,7 @@ import RSVP from "./views/RSVP";
 import Menu from "./views/Menu";
 import FAQ from "./views/FAQ";
 import "./styles/App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
