@@ -1,0 +1,3 @@
+The file `/my-static-site/public/favicon.ico` should contain the favicon image for the website. Since the favicon is an image file, it cannot be generated programmatically. You will need to provide the actual image file and place it in the specified location.
+
+Please provide the actual `favicon.ico` image file and place it in the `/my-static-site/public/` directory.
