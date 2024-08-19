@@ -1,28 +1,9 @@
-# My Static Site
+# Anne + Katrina
 
-This is a static website built using React. It consists of four different views: Home, About, Services, and Contact.
-
-## Project Structure
+Build and test by cloning repo, cd into the directorty, then in your terminal:
 
 ```
-my-static-site
-├── public
-│   ├── index.html
-│   └── favicon.ico
-├── src
-│   ├── views
-│   │   ├── FAQ.js
-│   │   ├── Home.js
-│   │   ├── Menu.js
-│   │   └── RSVP.js
-│   ├── App.js
-│   ├── index.js
-│   └── styles
-│       ├── Home.css
-│       ├── FAQ.css
-│       ├── Menu.css
-│       └── RSVP.css
-├── package.json
-├── .gitignore
-└── README.md
+$ npm i
+
+$ npm start
 ```
