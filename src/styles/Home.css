@@ -1,6 +1,7 @@
 /* Home.css */
 
 .home-container {
+  max-width: 640px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,11 +15,27 @@
   width: 100%;
 }
 
-.save-the {
+.anne {
   font-size: 5rem;
   text-align: left;
   line-height: 1.1;
   margin: 0 0 1rem 5rem;
+  margin-bottom: 1rem;
+}
+
+.and {
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1.1;
+  margin: 0 5rem 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.katrina {
+  font-size: 5rem;
+  text-align: right;
+  line-height: 1.1;
+  margin: 0 5rem 1rem 0;
   margin-bottom: 1rem;
 }
 
@@ -50,6 +67,7 @@
 .when {
   font-size: 1.9rem;
   margin-top: 1.2rem;
+  margin-bottom: 4rem;
 }
 
 .separator {
@@ -58,8 +76,14 @@
 }
 
 .where {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   margin-top: 1.2rem;
+}
+
+.facade {
+  width: 540px;
+  margin: 2rem;
+  border: #a87e4b 1px solid;
 }
 
 .invites {
