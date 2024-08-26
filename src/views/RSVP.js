@@ -8,7 +8,13 @@ const RSVP = () => {
         <p className="view-title rsvp-title">RSVP</p>
       </div>
       <div className="rsvp">
-        Please fill out the form below to RSVP to our wedding.
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScUNBZWshfHq2_SndCxXoJfi2E0Ayf4gOIvuRBjJwjo8Z7EGg/viewform?embedded=true"
+          width="640"
+          height="1039"
+        >
+          Loading…
+        </iframe>
       </div>
     </div>
   );
