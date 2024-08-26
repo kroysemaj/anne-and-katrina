@@ -1,32 +1,72 @@
 import React from "react";
 import "../styles/Menu.css";
+import Separator from "../assets/Khonsu.png";
 
 const Menu = () => {
+  const dishes = [
+    {
+      name: "Aloo Tikki",
+      description: "crispy potato and veggie cakes",
+    },
+    {
+      name: "Sesame Gobi",
+      description: "tasty sesame cauliflower bites",
+    },
+    {
+      name: "Seekh kebabs",
+      description: "a kebab, you know what this is",
+    },
+    {
+      name: "Yello daal",
+      description: "savory lentils in a mild sauce",
+    },
+    {
+      name: "Channa pindi",
+      description: "roasted ginger-garlic chickpeas",
+    },
+    {
+      name: "Aloo gobi",
+      description: "potato cauliflower curry",
+    },
+    {
+      name: "Chick tikka masala",
+      description: "creamy chicken curry",
+    },
+    {
+      description: "Fruit platter",
+    },
+    {
+      description: "Rice",
+    },
+    {
+      description: "Salad",
+    },
+    {
+      description: "Assorted papads, raitas, and desserts",
+    },
+  ];
+
   return (
     <div className="container text-center menu-container">
       <div className="call-to-action ">
         <p className="view-title menu-title">Menu</p>
       </div>
       <div className="menu-details">
-        <div className="menu-item">
-          <p className="entree">Democracy Manifest</p>
-          <p className="entree-details">A Succulent Chinese Meal</p>
-          <p className="dietary-info">V</p>
+        <div>
+          <p className="menu-desc">We are providing an Indian feast!</p>
+          <p className="menu-desc-sub"> Selections will include:</p>
         </div>
-        <div className="menu-item">
-          <p className="entree">Millions of Peaches</p>
-          <p className="entree-details">
-            Nature's candy in my hand, or a can or a pie
+        <div className="separator">
+          <img src={Separator} />
+        </div>
+        {dishes.map((dish, index) => (
+          <p key={index} className="menu-item">
+            {dish.name && <p className="menu-item-name">{dish.description}</p>}
+            {dish.description && (
+              <p className="menu-item-description">{dish.description}</p>
+            )}
           </p>
-          <p className="dietary-info">V VG</p>
-        </div>
-        <div className="menu-item">
-          <p className="entree">King of Carrot Steaks</p>
-          <p className="entree-details">
-            Holy rattlesnakes that fell all around your feet
-          </p>
-          <p className="dietary-info">OM NOM</p>
-        </div>
+        ))}
       </div>
       <div>
         <p className="footnote">

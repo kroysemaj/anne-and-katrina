@@ -19,15 +19,21 @@
 .menu-item {
   margin: 0.5rem 0;
   padding: 0.5rem 1.4rem;
+  min-height: 5rem;
   text-align: center;
+  border-bottom: #9c6e35 1px solid;
 }
 
-.entree {
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item-name {
   font-size: 1.2rem;
   text-transform: uppercase;
 }
 
-.entree-details {
+.menu-item-description {
   font-size: 1rem;
   font-style: italic;
 }
