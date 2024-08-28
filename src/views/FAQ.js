@@ -14,17 +14,7 @@ const FAQ = () => {
       answer:
         "Totally is! We’re hiring extra supervision and providing kid’s activities and a kid-friendly meal for our 12-and-under guests. Kids are of course welcome to party in the main space with us, as well as retire to the fun zone when the adults get boring.",
     },
-    {
-      question: "Do you have a registry? ",
-      answer:
-        "Listen. We deeply appreciate your desire to give us presents, we love presents! But we’ve been lucky enough to be well established in our life and home before we made it official. Your presence is more than present enough! That said, if you are insistent, we do have a small registry at Williams-Sonoma that you can find here:",
-      links: [
-        {
-          label: "Registry",
-          url: "https://www.williams-sonoma.com/registry/fxfhpjmc8q/registry-list.html",
-        },
-      ],
-    },
+
     {
       question:
         "How do I get around? What’s the parking situation? Public transit? ",
@@ -122,6 +112,18 @@ const FAQ = () => {
     },
   ];
 
+  const registry = {
+    question: "Do you have a registry? ",
+    answer:
+      "Listen. We deeply appreciate your desire to give us presents, we love presents! But we’ve been lucky enough to be well established in our life and home before we made it official. Your presence is more than present enough! That said, if you are insistent, we do have a small registry at Williams-Sonoma that you can find here:",
+    links: [
+      {
+        label: "Registry",
+        url: "https://www.williams-sonoma.com/registry/fxfhpjmc8q/registry-list.html",
+      },
+    ],
+  };
+
   return (
     <div className="container text-center menu-container">
       <div className="call-to-action faq-cta">
@@ -162,6 +164,23 @@ const FAQ = () => {
               </Accordion.Body>
             </Accordion.Item>
           ))}
+
+          <Accordion.Item>
+            <Accordion.Header>
+              <p>{registry.question}</p>
+            </Accordion.Header>
+            <Accordion.Body className="faq-answer">
+              Listen. We deeply appreciate your desire to give us presents, we
+              love presents! But we’ve been lucky enough to be well established
+              in our life and home before we made it official. Your presence is
+              more than present enough! That said, if you are insistent, we do
+              have a small registry at Williams-Sonoma that you can find{" "}
+              <a href="https://www.williams-sonoma.com/registry/fxfhpjmc8q/registry-list.html">
+                here
+              </a>
+              .
+            </Accordion.Body>
+          </Accordion.Item>
           <Accordion.Item>
             <Accordion.Header>
               <p>Just the one party? I thought you guys were cool.</p>

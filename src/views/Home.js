@@ -11,7 +11,7 @@ const Home = () => {
         <p className="katrina">Katrina</p>
       </div>
       <div className="event-details">
-        <p className="what">TO CELEBRATE THE MARRIAGE OF</p>
+        <p className="what">CELEBRATE THE MARRIAGE OF</p>
         <h3 className="who">
           ANNE <span className="space-around">&</span> KATRINA
         </h3>
@@ -37,9 +37,6 @@ const Home = () => {
         </div>
 
         <img className="facade" src={JamHandy} alt="The Jam Handy Facade" />
-      </div>
-      <div>
-        <p className="invites">formal invitation to follow</p>
       </div>
     </div>
   );

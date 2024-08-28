@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Menu.css";
-import Separator from "../assets/Khonsu.png";
+import { MoonStarsFill } from "react-bootstrap-icons";
 
 const Menu = () => {
   const dishes = [
@@ -56,12 +56,12 @@ const Menu = () => {
           <p className="menu-desc">We are providing an Indian feast!</p>
           <p className="menu-desc-sub"> Selections will include:</p>
         </div>
-        <div className="separator">
-          <img src={Separator} />
+        <div>
+          <MoonStarsFill className="separator" color="#a87e4b" />
         </div>
         {dishes.map((dish, index) => (
           <p key={index} className="menu-item">
-            {dish.name && <p className="menu-item-name">{dish.description}</p>}
+            {dish.name && <p className="menu-item-name">{dish.name}</p>}
             {dish.description && (
               <p className="menu-item-description">{dish.description}</p>
             )}
