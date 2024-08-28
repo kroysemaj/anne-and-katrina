@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8130ba5.css",
-    "main.js": "/static/js/main.9f9ebb36.js",
+    "main.css": "/static/css/main.d5d685dc.css",
+    "main.js": "/static/js/main.eb04b2e6.js",
+    "static/media/JamHandyFacade.jpg": "/static/media/JamHandyFacade.f33cc34d84ea98117eaf.jpg",
     "static/media/Madina.ttf": "/static/media/Madina.4486d3c4447c8170f5bb.ttf",
     "static/media/OPTIBerling-Agency.ttf.woff": "/static/media/OPTIBerling-Agency.ttf.94143b83d65b1d94811b.woff",
     "index.html": "/index.html",
-    "main.a8130ba5.css.map": "/static/css/main.a8130ba5.css.map",
-    "main.9f9ebb36.js.map": "/static/js/main.9f9ebb36.js.map"
+    "main.d5d685dc.css.map": "/static/css/main.d5d685dc.css.map",
+    "main.eb04b2e6.js.map": "/static/js/main.eb04b2e6.js.map"
   },
-  "entrypoints": ["static/css/main.a8130ba5.css", "static/js/main.9f9ebb36.js"]
+  "entrypoints": [
+    "static/css/main.d5d685dc.css",
+    "static/js/main.eb04b2e6.js"
+  ]
 }
